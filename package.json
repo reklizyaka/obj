@@ -25,7 +25,6 @@
   },
   "lint-staged": {
     "src/*.js": [
-      "npm prettier",
       "node_modules/.bin/eslint --max-warnings=0"
     ]
   }
