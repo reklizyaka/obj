@@ -1,0 +1,9 @@
+const getObjectEntries = () => {}; //; Your code here...
+const getObjectKeys = () => {}; //; Your code here...
+const getObjectValues = () => {}; //; Your code here...
+
+module.exports = {
+    getObjectEntries,
+    getObjectKeys,
+    getObjectValues
+};
