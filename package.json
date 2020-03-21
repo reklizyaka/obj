@@ -19,14 +19,14 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm test"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "src/*.js": [
       "npm prettier",
-      "node_modules/.bin/eslint --max-warnings=0"
+      "node_modules/.bin/eslint --max-warnings=0",
+      "npm run test"
     ]
   }
 }
